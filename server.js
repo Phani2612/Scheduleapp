@@ -20,7 +20,7 @@ App.use(Express.urlencoded())
 
 App.use(Express.json())
 
-App.set('views', '/views')
+App.set('views', '/Views')
 
 const JWT = require('jsonwebtoken')
 
